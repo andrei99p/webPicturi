@@ -1,0 +1,87 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("./resources/background2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.topnav {
+    background-color: #242424;
+    /* Black background */
+    overflow: hidden;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.topnav h1 {
+    color: whitesmoke;
+    font-family: "Papyrus";
+    font-weight: 200;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.5);
+    /* Transparent background with 50% opacity */
+    backdrop-filter: blur(10px);
+    /* Apply a blur effect */
+    width: 60%;
+    /* Increase the width to 90% */
+    /* Adjust the width as needed */
+    padding: 20px;
+    /* Add padding as needed */
+    border-radius: 10px;
+    /* Add border radius for rounded corners */
+    text-align: center;
+    margin: 120px auto 0;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    /* Add margin to separate each image and text pair */
+}
+
+.image-container img {
+    max-width: 100%;
+    /* Ensure images don't exceed the container width */
+    padding: 10px;
+}
+
+.image-container p {
+    margin-top: 10px;
+    /* Add some spacing between the image and text */
+}
+
+.footer-nav {
+    background-color: #000;
+    /* Black background */
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-nav h1 {
+    color: whitesmoke;
+}
+
+.footer-nav h3 {
+    color: whitesmoke;
+}
+
+.subtitlu {
+    text-align: center;
+    font-family: "Papyrus";
+}
