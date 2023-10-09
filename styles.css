@@ -52,13 +52,16 @@ body {
 }
 
 .image-container img {
-    max-width: 100%;
+    max-width: 60%;
     /* Ensure images don't exceed the container width */
     padding: 10px;
 }
 
 .image-container p {
     margin-top: 10px;
+    font-weight: 1000;
+    font-size: large;
+    font-family: "Papyrus";
     /* Add some spacing between the image and text */
 }
 
